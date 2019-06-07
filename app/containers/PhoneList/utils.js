@@ -48,7 +48,7 @@ export const format = data => {
   const formatter = memo => ({
     ...memo,
     tariff: memo.Tariff.name,
-    model: memo.Tariff.name,
+    model: memo.Model.name,
     client: `${memo.Client.name} ${memo.Client.lastName}`,
   });
 

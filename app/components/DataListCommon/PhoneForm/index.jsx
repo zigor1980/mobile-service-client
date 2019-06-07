@@ -36,6 +36,10 @@ const PhoneFormExternal = ({
                   required: true,
                   message: 'Please fill the field!',
                 },
+                {
+                  pattern: /^\+375\((29|33|44)\)[0-9]{7}$/gim,
+                  message: 'Must be +375(**)*******',
+                },
               ],
             })(<Input />)}
           </Item>

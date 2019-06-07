@@ -64,7 +64,7 @@ ClientFormExternal.propTypes = {
 
 const ClientForm = Form.create({
   name: 'userForm',
-  mapPropsToFields: mapPropsToFields('model', Form),
+  mapPropsToFields: mapPropsToFields('common', Form),
 })(ClientFormExternal);
 
 export default ClientForm;

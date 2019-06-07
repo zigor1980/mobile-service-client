@@ -1,13 +1,8 @@
 import React from 'react';
 import { Button } from 'antd';
+import moment from 'moment';
 
 export const getTableColumns = onRemove => [
-  {
-    title: 'Id',
-    dataIndex: 'id',
-    key: 'id',
-    className: 'table__column',
-  },
   {
     title: 'Number',
     dataIndex: 'number',
@@ -19,6 +14,12 @@ export const getTableColumns = onRemove => [
     dataIndex: 'cost',
     key: 'cost',
     className: 'table__column',
+  },
+  {
+    title: 'Date',
+    dataIndex: 'updatedAt',
+    key: 'updatedAt',
+    render: creationDate => moment(creationDate).format('MMM Do YY HH:mm'),
   },
   {
     title: 'Action',

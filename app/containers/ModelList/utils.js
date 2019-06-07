@@ -9,7 +9,7 @@ export const getTableColumns = onRemove => [
     className: 'table__column',
   },
   {
-    title: 'Descripyion',
+    title: 'Description',
     dataIndex: 'desc',
     key: 'desc',
     className: 'table__column',

@@ -34,6 +34,10 @@ const ClientFormExternal = ({
                   required: true,
                   message: 'Please fill the field!',
                 },
+                {
+                  pattern: /^[1-9][0-9]*$/gim,
+                  message: 'Must be number',
+                },
               ],
             })(<Input />)}
           </Item>
