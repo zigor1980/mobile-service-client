@@ -1,0 +1,35 @@
+
+.user {
+  flex: 1;
+}
+.userAvatar {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+.userInfo {
+  margin-bottom: 10px;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: #ffffff;
+  padding: 26px 10px 10px;
+  box-sizing: border-box;
+
+  .additions {
+    .tag {
+      margin-right: 10px;
+    }
+  }
+  
+  .title {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

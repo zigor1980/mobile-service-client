@@ -1,0 +1,30 @@
+@import 'app/theme/variables.scss';
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.globalLoader {
+  @extend .flexCenter;
+  background: $white;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.loadingChildren {
+  opacity: 0.5;
+}
+
+.loaderContainer {
+  position: relative;
+}
+
+.loader {
+  @extend .flexCenter;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,23 @@
+@mixin bp($point) {
+    @if $point == desktop {
+      @media (min-width: 992px) { @content; }
+    }
+    @else if $point == tablet {
+      @media (max-width: 991px) { @content; }
+    }
+    @else if $point == mobile {
+      @media (max-width: 767px)  { @content; }
+    }
+    @else if $point == default {
+      @media (min-width: 768px)  { @content; }
+    }
+  }
+  
+  @mixin buttonColors($color) {
+    color: $color;
+    border-color: $color;
+    &:hover, &:focus {
+        color: $color;
+        border-color: $color;
+    }
+  }

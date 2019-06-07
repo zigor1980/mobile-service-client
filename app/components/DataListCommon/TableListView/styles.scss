@@ -1,0 +1,15 @@
+.table {
+  &__row {
+    cursor: pointer;
+    min-width: 200px;
+  }
+  &__column {
+
+    &_action {
+      text-align: center;
+    }
+  }
+}
+.container {
+  overflow: auto;
+}

@@ -1,0 +1,11 @@
+export default {
+  FETCH: 'clients/FETCH',
+  FETCH_FAILED: 'clients/FETCH_FAILED',
+  FETCH_SUCCESS: 'clients/FETCH_SUCCESS',
+  CREATE: 'clients/CREATE',
+  CREATE_FAILED: 'clients/CREATE_FAILED',
+  CREATE_SUCCESS: 'clients/CREATE_SUCCESS',
+  REMOVE: 'clients/REMOVE',
+  REMOVE_FAILED: 'clients/REMOVE_FAILED',
+  REMOVE_SUCCESS: 'clients/REMOVE_SUCCESS',
+};

@@ -1,0 +1,11 @@
+export default {
+  FETCH: 'tariff/FETCH',
+  FETCH_FAILED: 'tariff/FETCH_FAILED',
+  FETCH_SUCCESS: 'tariff/FETCH_SUCCESS',
+  CREATE: 'tariff/CREATE',
+  CREATE_FAILED: 'tariff/CREATE_FAILED',
+  CREATE_SUCCESS: 'tariff/CREATE_SUCCESS',
+  REMOVE: 'tariff/REMOVE',
+  REMOVE_FAILED: 'tariff/REMOVE_FAILED',
+  REMOVE_SUCCESS: 'tariff/REMOVE_SUCCESS',
+};
